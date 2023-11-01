@@ -1,0 +1,780 @@
+    @media (max-width: 1000px){
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        z-index: 100;
+        margin: 0%;
+        height: 4rem;
+      }
+    
+      .navbar-logo p{
+          font-size: 32px;
+      }
+ 
+    
+      .navbar-toggler {
+        display: block;
+      }
+    
+      .navbar-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 40px;
+        height: 90vh;
+        left: 0;
+        background: linear-gradient(to right, #C08F43, #232227);
+        font-weight: 550;
+        z-index: 100;
+        font-size: 18px;
+      }
+      .navbar-link:hover a {
+        color: var(--primary);
+      }
+      
+      .icon{
+          width: 2rem;
+          height: 2rem;
+          margin-left: 2rem;
+      }
+      .navbar.active .navbar-links {
+        display: flex;
+      }
+    
+      .navbar-link {
+        width: 100%;
+        text-align: center;
+        height: 12vh;
+        margin-top: 2rem;
+      }
+    }
+
+    
+    @media (max-width: 1200px){
+
+
+   
+        .about-photo, .about-txt{
+            margin-top:5rem;
+            height: 20rem;
+            width: 15rem;
+            margin-bottom: 4rem;
+        }
+
+        .about-txt{
+            height: 20rem;
+            width: 21rem;
+        }
+
+        .about-txt h2{
+            margin-top: 12px;
+            margin-left: 0px;
+            font-size: 20px;
+            color: var(--color);
+            text-align: center;
+        }
+
+        .about-txt p{
+            margin-top: 2px;
+            margin-left: 0px;
+            font-size: 15px;
+            color: var(--color-dark);
+            font-weight: 550;
+            margin-bottom: 3px;
+            max-width: 95%;
+            text-align: center;
+        }
+
+        .about-txt > div{
+            cursor: pointer;
+            font-weight: 550;
+            max-width: 30rem;
+            margin-left: 2px;
+            font-size: 14px;
+            margin-top: 1rem;
+        }
+
+        .vertical-line {
+            height: 7rem;
+            color: var(--color);
+            left: 7%;
+            top: 9rem;
+        }
+        
+        .number {
+            font-size: 14px;
+            left: 6.4%;
+            top: 16.3rem;
+        }
+        
+        .leaf{
+            width: 5rem;
+            height: 5rem;
+            right: 9%;
+            z-index: 0;
+            top: 20rem;
+        }
+
+        .down-btn{
+            display: none;
+        }
+
+
+        .chooseUs{
+            height: 35vh;
+            margin-top: 3remjgfel;
+        }
+
+        .choose-txt h2{
+            font-size: 28px;
+        }
+
+        .choose-txt p{
+            font-size: 15px;
+            margin-top: 0.5rem;
+        }
+        
+        .choose-icons{
+            margin-top: 1rem;
+            gap: 0.5rem;
+           
+        }
+
+        .choose-grid{
+          padding: 0%;
+        }
+
+        .choose-icons .Icon{
+            width: 4rem;
+            height: 4rem;
+            }
+
+            .choose-icons h2{
+                font-size: 27px;
+                }
+
+         .choose-icons p{
+              margin-top: 1rem;
+              max-width: 18rem;
+              font-size: 15px;
+        }
+
+        .dishes{
+            margin-top: 0;
+          } 
+
+          .dishes h2{
+            margin-top: 0;
+            font-size: 28px;
+            color: var(--color);
+          }
+
+          .dish{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 28px;
+          }
+
+          .box{
+            height: 20rem;
+            width: 14rem;
+            margin-top: 3rem;
+           }
+
+           .dish-img2, .dish-img3, .dish-img4, .dish-img{
+            width: 100%;
+            height: 17rem;
+          }
+
+          .dish-name h3{
+            font-weight: 660;
+            font-size: 14px;
+            margin: 0;
+          }
+
+          .dish-rating .gold-star, .grey-star{
+            width: 15px;
+            height: 15px;
+            margin-top: 3px;
+          }
+
+          .ingredients{
+            background-color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+          }
+          
+          .ingredients h2{
+            font-size: 28px;
+            margin-top: 4rem;
+          }
+          
+          .ingredients p{
+            max-width: 70vw;
+            margin-top: 1rem;
+            font-size: 15px;
+          
+          }
+
+          .inge-img{
+            padding-top: 1rem;
+            height: 28rem;
+            width: 100%;
+            margin-bottom: 4rem;
+          }
+          
+          .inge-image{
+          height: 20rem;
+          width: 20rem;
+          left: 50%;  
+          top: 50%;
+          bottom: 0;
+          transform:  translate(-50%, -50%); 
+          }
+
+
+        .discover{
+            height: 30vh;
+        }
+
+        .discover h2{
+            font-size: 30px;
+        }
+
+     .discover p{
+        font-size: 15px;
+     }
+
+     .review-header h2{
+        font-size: 28px;
+         margin-top: 5rem;
+         margin-left: 2rem;
+      }
+
+      .button{
+        gap: 0.5rem;
+        margin-top: 5rem;
+      }
+
+      .left-btn{
+        width: 2rem;
+        height: 2rem;
+      }
+      
+      .right-btn{
+        width: 1.9rem;
+        height: 1.8rem;
+      
+      }
+      
+      .join-us{
+        margin-top: 1rem;
+        margin-left: 2rem;
+        max-width: 60vw;
+        font-size: 15px;
+      }
+
+      .rev{
+        display: grid;
+        gap: 1rem;
+        display: grid;
+        align-items: center;
+      }
+
+      .review-box > div{
+        width: 20rem;
+        height: 14rem;
+        margin-bottom: 1rem;
+        border-radius: 0.5rem;
+        padding: 0.2rem 3rem;
+      }
+
+      .box-txt h3{
+        font-size: 28px;
+      }
+      
+      .god-star{
+        width: 1.2rem;
+        height: 1rem;
+      }
+      
+      .gey-star{
+        width: 1.2rem;
+        height: 1rem;
+      }
+      
+      .review-box > div p{
+        font-size: 15px;
+        font-weight: 550;
+      }
+
+      .dot-bg{
+      width: 15rem;
+      height: 8rem;
+      margin-left: 4rem;
+      }
+
+      .review-contain{
+        height: 20rem;
+        width: 35rem;
+      }
+      
+      .gallery-container{
+        padding: 5rem 5rem;
+        display: grid;
+      }
+
+      .gallery-txt h2{
+        font-size: 28px;
+        margin-bottom: 1rem;
+        text-align: center;
+        }
+        
+        .gallery-txt p{
+          font-size: 15px;
+          font-weight: 550;
+          max-width: 70vw;
+          margin-bottom: 31.rem;
+          text-align: center;
+        }
+        
+
+        /* ========ork to do =======*/
+        .gallery-txt > div{
+          width: 7rem;
+          padding: 1rem 1rem;
+          font-size: 15px;
+          margin-bottom: 2rem;
+          margin-left: 40%;
+        }
+
+        .line{
+            width:80vw;
+            height: 35vh;
+            position: relative;
+          }
+
+          .contactUs-container{
+            display: grid;
+            justify-content: center;
+            padding: 0;
+            padding-top: 15rem;
+            margin: 0%;
+          }
+          .contact h2{
+          display: none;
+          }
+
+          .input-section h2{
+            display: block;
+            color: #fff;
+            font-size: 28px;
+            margin-top: 1rem;
+          }
+
+          .border3{
+            height: 30rem;
+            width: 30rem;
+
+          }
+
+          input{
+            width: 60vw;
+            height: 3rem;
+            font-size: 15px;
+            margin: 0%;
+          }
+
+          .send{
+            bottom: 1px;
+            right: -5px;
+          }
+
+          .text-container{
+            width: 60vw;
+            margin-right: 0%;
+          }
+
+          .footer-container{
+            margin: 5rem 3rem;
+          }
+
+          
+          .brand{
+        display: none;
+          }
+          
+          .footer-container h3{
+            color: var(--gold);
+            font-size: 28px;
+          }
+          
+          
+          .footer-icon{
+            display: flex;
+            gap: 7px;
+            width: 6rem;
+            margin-top: 2rem;
+          }
+          
+          .footer-icon .ficon{
+            height: 1.2rem;
+            width: 1.2rem;
+          }
+          
+    } 
+
+    @media (max-width: 632px){
+
+      .choose-icons{
+        padding: 0%;
+      }
+      .title-wrap{
+        max-width: 30vw;
+      }
+
+      .clip-path, .shade{
+        width: 35vw;
+      }
+      .title, .plate{
+        font-size: 1.4rem;
+      } 
+      
+
+    }
+
+    @media(max-width: 1000px){
+      .home-body{
+        height: 50vh;
+    
+            }
+    
+            .title-wrap{
+              position: absolute;
+            left: 4%;
+            top: 27% !important;
+            transform: translateY(-50%); 
+           
+           }
+        
+            .title {
+            color: var(--color);
+            max-width: 45vw;
+            font-size: 2rem;
+            }
+    
+            .plate{
+                font-size: 2rem;
+            }
+    
+            .btn{
+                width: 10rem;
+                padding: 1rem 1.8rem;
+                font-size: 15px;
+            }
+    
+    
+    
+            .clip-path {
+                height: 50vh;
+            
+               
+            }
+    
+            .animation-container{
+                height: 50vh;
+            }
+    
+            .circle-box {
+                width: 250px;
+                height: 250px;
+                margin-right:1rem;
+            }
+    
+            .shade{
+                height: 50vh;
+            }
+    }
+
+    @media(max-width: 844px){
+      .dot-bg{
+        display: none;
+      }
+    }
+
+    @media(max-width: 567px){
+      .title, .plate{
+        font-size: 1.2rem;
+      }
+    }
+
+@media(max-width: 440px){
+
+  .dot-bg{
+    display: none;
+  }
+  .choose-icons .Icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    }
+
+    .choose-icons p{
+      font-size: 12px;
+      max-width: 95%;
+    }
+
+  .navbar-logo p{
+    font-size: 1.2rem;
+  }
+
+  .icon{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+}
+.title-wrap{
+  top: 15% !important;
+}
+  .title{
+    font-size: 0.9rem;
+  }
+
+  .plate{
+    font-size: 0.9rem;
+  }
+
+
+
+  .btn{
+    width: 6rem;
+    padding: 7px 1px;
+    font-size: 0.6rem;
+    margin-top: 1rem;
+  }
+
+  .home-body {
+    height: 30vh !important;
+  }
+
+  .about-section{
+    flex-direction: column;
+  }
+  .about-photo{
+    height: 12rem;
+margin-bottom: 0;
+  }
+
+  .about-txt{
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .about-txt h2{
+    font-size: 20px;
+  }
+
+  .about-txt p{
+    font-size: 12px;
+  }
+
+  .choose-txt h2, .choose-icons h2, .dishes h2,
+   .ingredients h2, .review-header h2{
+     font-size: 20px;
+     text-align: center;
+  }
+
+  .choose-txt p, .choose-icons p, .ingredients p, .review-header p{
+    font-size: 12px;
+  }
+
+  .choose-grid{
+    max-width: 30%;
+    margin-left: 4px;
+  }
+
+
+  .box{
+    height: 12rem;
+    width: 8rem;
+  }
+
+  .dish{
+    flex-direction: column;
+  }
+
+  .dish-img2, .dish-img, .dish-img3, .dish-img4{
+    height: 10rem;
+  }
+
+  .dish-name h3{
+    font-size: 10px;
+  }
+
+  .dish-price{
+    font-size: 12px;
+  }
+
+  .dish-rating .gold-star, .grey-star{
+    width: 12px;
+    height: 12px;
+  }
+
+  .review-header h2{
+    margin-left: 0%;
+    text-align: start !important;
+    max-width: 51vw;
+  }
+
+  .join-us {
+    margin-top: 1rem;
+    margin-left: 0%;
+    max-width: 60vw;
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .rev{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .gallery-container{
+    padding:0%;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .frame{
+    height: 15rem;
+    left: 0;
+  }
+
+  .dot{
+    display: none;
+  }
+
+  .contactUs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .input-section{
+    width: 90%;
+    margin-left: 5%;
+
+  }
+
+  .input-section h2{
+    font-size: 22px;
+  }
+
+  .review-header h2, .review-header .button{
+    margin-top: 0%;
+  }
+
+  .contactUs-container h3{
+    font-size: 18px;
+  }
+
+  .inge-image{
+    width: 11rem;
+    height: 11rem;
+  }
+  .contact {
+    padding-right: 0;
+  }
+
+    .footer-container {
+    margin: 5rem 1rem;
+  }
+
+  .footer-container h3 {
+    font-size: 18px;
+  }
+
+  .footer-container p{
+    font-size: 14px;
+  }
+
+  .footer-icon{
+    margin-top: 6rem;
+  }
+
+  .contact p{
+    font-size: 19px;
+  }
+  .gallery-txt > div{
+    margin-left: 0;
+  }
+  .gallery-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .review-box > div{
+    width: 100%;
+    margin-left: 10%;
+height: 100%;
+  }
+
+  .review-contain{
+    margin-top: 0%;
+    height: 9rem !important;
+
+  }
+
+
+  .box-txt{
+    flex-direction: column;
+  }
+
+  .box-txt h3{
+    font-size: 1rem;
+  }
+
+  .review-contain{
+    width: 13rem;
+    height: 15rem;
+  }
+}
+@media(max-width: 844px){
+  
+}
+@media(max-width: 340px){
+  .title, .plate{
+    font-size: 0.7rem;
+  }
+
+}
+
+@media(max-width: 312px){
+  .choose-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .choose-grid {
+    max-width: 92%;
+  }
+  .btn{
+    width: 5rem;
+  }
+
+  .text-wrap{
+    max-width: 45vw;
+  }
+}
