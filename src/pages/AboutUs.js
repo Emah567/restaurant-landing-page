@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import React from 'react'
 import "../index.css"
 import { Icon } from '@iconify/react';
@@ -16,8 +17,13 @@ const About = () => {
         </div>
         <div className='leaf'></div>
       </div>
-
-      
+      </div>
+   
+   )
+  }
+  
+  export default About;
+{/*       
       <div className='chooseUs'>
       <div className='choose-txt'>
       <h2>Why choose us?</h2>
@@ -119,8 +125,4 @@ const About = () => {
   </div>
   </div> 
   </div>
-    </div>
-  )
-}
-
-export default About
+    </div> */}

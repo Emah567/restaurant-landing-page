@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import Navbar from './Navbar';
 import Home from './pages/Home';
-import Menu from './pages/Menu';
-import Contact from './pages/Contact';
+// import Menu from './pages/Menu';
+// import Contact from './pages/Contact';
 import About from './pages/AboutUs';
-import Footer from './pages/Footer';
+// import Footer from './pages/Footer';
 
 
 const App = () => {
@@ -102,9 +102,6 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
-      <Menu />
-      <Contact />
-     <Footer />
     </div>
   );
 };

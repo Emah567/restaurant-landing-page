@@ -5,6 +5,8 @@ body{
 font-family: 'Lora', serif;
 margin: 0;
 background-color: var(--primary);
+width: 100vw;
+overflow-x: hidden;
 }
 :root{
   ---secondary: #232227;
@@ -97,7 +99,7 @@ code {
 .navbar-links {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 39px;
   font-weight: 550;
   font-size: 20px;
   margin-right: 6vw;
@@ -107,7 +109,7 @@ code {
 
 .navbar-link {
   position: relative;
-  width: 9vw;
+  width: 5vw;
 }
 
 .about{
